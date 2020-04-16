@@ -1,0 +1,14 @@
+C:\fx1data\code\csharp\DataMan\bin\Debug\DataMan.exe.config
+C:\fx1data\code\csharp\DataMan\bin\Debug\DataMan.exe
+C:\fx1data\code\csharp\DataMan\bin\Debug\DataMan.pdb
+C:\fx1data\code\csharp\DataMan\obj\Debug\MainWindow.g.cs
+C:\fx1data\code\csharp\DataMan\obj\Debug\App.g.cs
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan_MarkupCompile.cache
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan_MarkupCompile.lref
+C:\fx1data\code\csharp\DataMan\obj\Debug\MainWindow.baml
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.g.resources
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.Properties.Resources.resources
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.csproj.GenerateResource.cache
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.csproj.CoreCompileInputs.cache
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.exe
+C:\fx1data\code\csharp\DataMan\obj\Debug\DataMan.pdb
