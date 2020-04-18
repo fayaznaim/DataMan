@@ -64,7 +64,7 @@ namespace DataMan
                 rtb2results.AppendText(md5match.Value + Environment.NewLine);
             }
             */
-            xmd5();
+
 
         }
 
