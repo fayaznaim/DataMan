@@ -4,12 +4,8 @@ This simple c# WPF program is to maipulate data based my work requirements.
 
 Main Tab: 
 Main window will extract different forms of hash values from the input window. 
-
-Completed:
-
-Main tab: md5 extraction
-
-
+The following extraction are possible right now. 
+md5
 
 
 Work in progress:
