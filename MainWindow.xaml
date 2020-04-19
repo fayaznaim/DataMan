@@ -16,7 +16,7 @@
                     <FlowDocument/>
                 </RichTextBox>
                 <Button Content="Clear" HorizontalAlignment="Left" Margin="5,2,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click" Height="19" FontSize="10"/>
-                <RichTextBox HorizontalAlignment="Left" Height="406" Margin="357,21,0,0" Name ="rtb2results" VerticalAlignment="Top" Width="298" Block.LineStackingStrategy="BlockLineHeight" MinWidth="7">
+                <RichTextBox HorizontalAlignment="Left" Height="406" Margin="357,21,0,0" Name ="rtb2results" VerticalAlignment="Top" Width="298" Block.LineStackingStrategy="BlockLineHeight" MinWidth="7" TextChanged="rtb2results_TextChanged">
                     <FlowDocument>
                         <Paragraph>
                             <Run Text=""/>
@@ -26,7 +26,7 @@
                 <Button Content="Clear" HorizontalAlignment="Left" Margin="357,2,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_1" FontSize="10"/>
                 <Button Content="Clear Both" HorizontalAlignment="Left" Margin="590,2,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_2" FontSize="10"/>
                 <Button Content="Extract MD5s" HorizontalAlignment="Left" Margin="673,47,0,0" VerticalAlignment="Top" Width="70" TabIndex="1" FontSize="10" Click="Button_Click_3" RenderTransformOrigin="0.474,2.214"/>
-                <CheckBox Content="Clear with each button" HorizontalAlignment="Left" Margin="673,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.925,0.447" Checked="CheckBox_Checked"/>
+                <CheckBox Content="Clear previous output each time" HorizontalAlignment="Left" Margin="666,4,0,0" Name="Clearpreviouscheckbox" VerticalAlignment="Top" RenderTransformOrigin="-2.925,0.447" Checked="CheckBox_Checked" Width="189"/>
             </Grid>
         </TabItem>
         <TabItem Header="2"/>

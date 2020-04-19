@@ -56,6 +56,15 @@ namespace DataMan
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             /*
+            if (Clearpreviouscheckbox.IsChecked ?? true)
+            {
+                rtb2results.Document.Blocks.Clear();
+            }
+            else
+            {
+
+            }
+            */
             Regex md5regex = new Regex(@"\b[A-Fa-f0-9]{32}\b");
             TextRange textRangeinput = new TextRange(rtb1maininput.Document.ContentStart, rtb1maininput.Document.ContentEnd);
             MatchCollection md5collection = md5regex.Matches(textRangeinput.Text);
@@ -63,12 +72,17 @@ namespace DataMan
             {
                 rtb2results.AppendText(md5match.Value + Environment.NewLine);
             }
-            */
+            
 
 
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void rtb2results_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
