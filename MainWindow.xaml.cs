@@ -55,26 +55,35 @@ namespace DataMan
         // Button to extract md5
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            /*
+            
             if (Clearpreviouscheckbox.IsChecked ?? true)
             {
                 rtb2results.Document.Blocks.Clear();
             }
-            else
-            {
-
-            }
-            */
+            rtb2results.AppendText(Environment.NewLine);
             Regex md5regex = new Regex(@"\b[A-Fa-f0-9]{32}\b");
             TextRange textRangeinput = new TextRange(rtb1maininput.Document.ContentStart, rtb1maininput.Document.ContentEnd);
             MatchCollection md5collection = md5regex.Matches(textRangeinput.Text);
-            foreach (Match md5match in md5collection) 
+            foreach (Match md5match in md5collection)
             {
-                rtb2results.AppendText(md5match.Value + Environment.NewLine);
+            rtb2results.AppendText(md5match.Value + Environment.NewLine);
             }
-            
+        }
 
-
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            if (Clearpreviouscheckbox.IsChecked ?? true)
+            {
+                rtb2results.Document.Blocks.Clear();
+            }
+            rtb2results.AppendText(Environment.NewLine);
+            Regex sha1regex = new Regex(@"\b[A-Fa-f0-9]{40}\b");
+            TextRange textRangeinput = new TextRange(rtb1maininput.Document.ContentStart, rtb1maininput.Document.ContentEnd);
+            MatchCollection sha1collection = sha1regex.Matches(textRangeinput.Text);
+            foreach (Match sha1match in sha1collection)
+            {
+                rtb2results.AppendText(sha1match.Value + Environment.NewLine);
+            }
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -83,6 +92,11 @@ namespace DataMan
         }
 
         private void rtb2results_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Clearpreviouscheckbox_Unchecked(object sender, RoutedEventArgs e)
         {
 
         }
