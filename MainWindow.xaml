@@ -28,7 +28,7 @@
                 <Button Content="MD5" HorizontalAlignment="Left" Margin="785,30,0,0" VerticalAlignment="Top" Width="70" TabIndex="1" FontSize="10" Click="Button_Click_3" RenderTransformOrigin="0.474,2.214"/>
                 <CheckBox Content="Clear previous output each time" HorizontalAlignment="Left" Margin="666,4,0,0" Name="Clearpreviouscheckbox" VerticalAlignment="Top" RenderTransformOrigin="-2.925,0.447" Checked="CheckBox_Checked" Width="189" Unchecked="Clearpreviouscheckbox_Unchecked"/>
                 <Button Content="SHA1&#xD;&#xA;" HorizontalAlignment="Left" Margin="785,51,0,0" VerticalAlignment="Top" Width="70" Height="17" Click="Button_Click_4"/>
-                <Button Content="SHA256&#xD;&#xA;&#xD;&#xA;SHA256" HorizontalAlignment="Left" Margin="785,72,0,0" VerticalAlignment="Top" Width="70" Height="17"/>
+                <Button Content="SHA256&#xD;&#xA;&#xD;&#xA;SHA256" HorizontalAlignment="Left" Margin="785,72,0,0" VerticalAlignment="Top" Width="70" Height="17" Click="Button_Click_5"/>
             </Grid>
         </TabItem>
         <TabItem Header="2"/>
