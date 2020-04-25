@@ -20,4 +20,4 @@ Work in progress:
 * sha512 extraction.
 * remove blank lines
 * All caps All lower
-* csv ot list, list to csv
+* csv to list, list to csv
