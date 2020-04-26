@@ -25,11 +25,11 @@
                 </RichTextBox>
                 <Button Content="Clear" HorizontalAlignment="Left" Margin="357,2,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_1" FontSize="10"/>
                 <Button Content="Clear Both" HorizontalAlignment="Left" Margin="590,2,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_2" FontSize="10"/>
-                <Button Content="MD5" HorizontalAlignment="Left" Margin="785,30,0,0" VerticalAlignment="Top" Width="70" TabIndex="1" FontSize="10" Click="Button_Click_3" RenderTransformOrigin="0.474,2.214"/>
+                <Button Content="MD5" HorizontalAlignment="Left" Margin="666,30,0,0" VerticalAlignment="Top" Width="68" TabIndex="1" FontSize="10" Click="Button_Click_3" RenderTransformOrigin="0.474,2.214" Height="17"/>
                 <CheckBox Content="Clear previous output each time" HorizontalAlignment="Left" Margin="666,4,0,0" Name="Clearpreviouscheckbox" VerticalAlignment="Top" RenderTransformOrigin="-2.925,0.447" Checked="CheckBox_Checked" Width="189" Unchecked="Clearpreviouscheckbox_Unchecked"/>
-                <Button Content="SHA1" HorizontalAlignment="Left" Margin="785,51,0,0" VerticalAlignment="Top" Width="70" Height="17" Click="Button_Click_4"/>
-                <Button Content="SHA256" HorizontalAlignment="Left" Margin="785,72,0,0" VerticalAlignment="Top" Width="70" Height="17" Click="Button_Click_5"/>
-                <Button Content="SHA512" HorizontalAlignment="Left" Margin="787,94,0,0" VerticalAlignment="Top" Width="68" Height="17" Click="Button_Click_6"/>
+                <Button Content="SHA1" HorizontalAlignment="Left" Margin="666,49,0,0" VerticalAlignment="Top" Width="68" Height="17" Click="Button_Click_4"/>
+                <Button Content="SHA256" HorizontalAlignment="Left" Margin="666,68,0,0" VerticalAlignment="Top" Width="68" Height="17" Click="Button_Click_5"/>
+                <Button Content="SHA512" HorizontalAlignment="Left" Margin="666,87,0,0" VerticalAlignment="Top" Width="68" Height="17" Click="Button_Click_6"/>
             </Grid>
         </TabItem>
         <TabItem Header="2"/>

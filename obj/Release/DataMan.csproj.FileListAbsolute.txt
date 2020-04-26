@@ -12,4 +12,3 @@ C:\fx1data\code\csharp\DataMan\obj\Release\DataMan.csproj.GenerateResource.cache
 C:\fx1data\code\csharp\DataMan\obj\Release\DataMan.csproj.CoreCompileInputs.cache
 C:\fx1data\code\csharp\DataMan\obj\Release\DataMan.exe
 C:\fx1data\code\csharp\DataMan\obj\Release\DataMan.pdb
-C:\fx1data\code\csharp\DataMan\obj\Release\DataMan.csprojAssemblyReference.cache
