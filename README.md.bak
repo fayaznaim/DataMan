@@ -12,12 +12,12 @@ extractions:
 md5 
 sha1
 sha256
+sha256
 
 
 
 
 Work in progress:
-* sha512 extraction.
 * remove blank lines
 * All caps All lower
 * csv to list, list to csv

@@ -7,17 +7,17 @@ Main window will extract different forms of hash values from the input window.
 
 Completed:
 
-Main tab: 
-extractions:
-md5 
-sha1
-sha256
-sha256
+### Main tab: 
+#### Extractions:
+md5, sha1, sha256, sha256
 
 
 
-
-Work in progress:
+#### Work in progress:
+* email extractin
+* ip extraction
+* domain extraction
+* url starting with http or https extraction
 * remove blank lines
 * All caps All lower
 * csv to list, list to csv
