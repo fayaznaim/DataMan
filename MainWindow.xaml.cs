@@ -102,6 +102,23 @@ namespace DataMan
             }
         }
 
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            if (Clearpreviouscheckbox.IsChecked ?? true)
+            {
+                rtb2results.Document.Blocks.Clear();
+            }
+            rtb2results.AppendText(Environment.NewLine);
+            Regex sha1regex = new Regex(@"\b[A-Fa-f0-9]{128}\b");
+            TextRange textRangeinput = new TextRange(rtb1maininput.Document.ContentStart, rtb1maininput.Document.ContentEnd);
+            MatchCollection sha1collection = sha1regex.Matches(textRangeinput.Text);
+            foreach (Match sha1match in sha1collection)
+            {
+                rtb2results.AppendText(sha1match.Value + Environment.NewLine);
+            }
+
+        }
+
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
 
@@ -116,6 +133,7 @@ namespace DataMan
         {
 
         }
+
 
     }
 }
